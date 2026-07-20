@@ -1,0 +1,43 @@
+{
+  "incidentId": "INC-2026-1048",
+  "timestamp": "2026-07-20T10:42:18Z",
+  "eventType": "medical_emergency",
+  "priority": "high",
+  "status": "active",
+  "location": {
+    "latitude": 6.5244,
+    "longitude": 3.3792,
+    "address": "Lagos Island, Lagos, Nigeria"
+  },
+  "victim": {
+    "name": "Adewale Okafor",
+    "age": 34,
+    "gender": "male",
+    "condition": "unconscious"
+  },
+  "reporter": {
+    "name": "Grace Thompson",
+    "phone": "+2348012345678",
+    "relationship": "bystander"
+  },
+  "responders": [
+    {
+      "id": "RES-001",
+      "name": "Amara Musa",
+      "role": "paramedic",
+      "status": "en_route"
+    },
+    {
+      "id": "RES-002",
+      "name": "Daniel Cole",
+      "role": "firefighter",
+      "status": "dispatched"
+    }
+  ],
+  "resources": {
+    "ambulance": "AMB-12",
+    "hospital": "General Hospital, Lagos Island",
+    "equipment": ["oxygen", "defibrillator", "first_aid_kit"]
+  },
+  "notes": "Patient reported shortness of breath and loss of consciousness. Nearby crowd has been directed to clear the area."
+}

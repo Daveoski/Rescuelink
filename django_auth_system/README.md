@@ -82,5 +82,6 @@ accounts/          # App with auth views, forms, templates
    ```bash
    git checkout main
    git pull origin main
-   git branch -d feature/auth-system
+   git branch -d feature/auth-system 
    ```
+  

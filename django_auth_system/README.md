@@ -84,4 +84,3 @@ accounts/          # App with auth views, forms, templates
    git pull origin main
    git branch -d feature/auth-system 
    ```
-  
